@@ -7,24 +7,27 @@ body{
     background-size: cover;
 }
 .headpart{
-    background-color:white;
+    background-color:rgb(253, 252, 250);
     overflow: hidden;
     background-repeat: no-repeat;
     
+}
+.headpart img#logo{
+    height: 180px;
+    border: 1px;
+    border-radius: 180px;
+    float: left;
+    padding: 20px;
+    margin: 10px;
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 75px;
     padding:20px;
     margin: 30px;
-    color: rgb(107, 103, 110);
+    color: rgb(57, 57, 99);
 }
-.headpart img#logo{
-    height: 150px;
-    float: left;
-    padding: 20px;
-    margin: 10px;
-}
+
 a#sign-in{
     float: right;
 }
